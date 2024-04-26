@@ -25,7 +25,8 @@ To run the app locally, follow these steps:
 1. Clone this repository to your local machine.
 2. Install dependencies using npm: `npm install`
 3. Set up a MongoDB database and configure the connection in `src/config.js`.
-4. Start the server: `node server.js`
-5. Open your web browser and navigate to `http://localhost:3000`
+4. create an dotenv file and add SECRET = YOURSECRET, MONGO_PASS= YOURPASSWORD.
+5. Start the server: `node server.js`
+6. Open your web browser and navigate to `http://localhost:3000`
 
 
